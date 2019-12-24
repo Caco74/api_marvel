@@ -1,0 +1,31 @@
+.main-title {
+  text-align: center;
+}
+
+.hero-img {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Hero img cuando le hagan un hover, quiero que la descriptción ... */
+.hero-img:hover .description {
+  top: 0;
+}
+
+.thumbnail {
+  display: block;
+  width: 100%;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  color: white;
+  background: hsla(0, 0%, 20%, 0.8);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -100%;
+  margin: 0;
+  padding: 1em;
+}
